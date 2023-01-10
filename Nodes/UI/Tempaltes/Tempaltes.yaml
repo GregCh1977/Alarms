@@ -1,0 +1,18 @@
+Name: Tempaltes
+Type: FolderType
+Children:
+- Name: BasePage
+  Id: g=f9d971ad50e939fa05022e68c992b1c1
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 860.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 540.0
